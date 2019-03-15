@@ -1,0 +1,19 @@
+
+LAYERS VS TIERS:
+
+-Tier reprezinta implementarea fizica a unui server.
+-In contrast Layer-ul este reprezentat de componente software logice grupate de obicei dupa funcitonalitate.
+
+
+-Tier-urile sunt locuri unde layers-urile ruleaza .Cu alte cuvinte,sunt partea fizica a layers-urilor(Layers-logic,tier-fizic).
+-Fiecare Layer poate rula intr-un tier individual dar mai multe layere pot de asemenea rula intr-un singur tier.
+-Layers-urile se pot afla pe acelasi computer fizic sau pot fi distribuite pe computere(sau servere) separate (n-tier).
+
+LOGGING:
+
+-o varianta ar fi sa implementam logging-ul in layer-ul cel mai inalt.
+-o alta varianta ar fi sa punem logging-ul in toate layerele astfel avem acces la informatii in toate zonele.
+
+SECURITY:
+
+-se poate implementa in oricare din cele trei LAYERE  :DATA LAYER, BUSSINESS LAYER, PRESENTATION LAYER

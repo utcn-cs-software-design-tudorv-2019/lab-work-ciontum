@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DataAcces.Data">
+   <children>
+
+      <Label fx:id="idl" layoutX="45.0" layoutY="14.0" prefHeight="21.0" prefWidth="50.0" />
+      <Label fx:id="numel" layoutX="70.0" layoutY="35.0" prefHeight="21.0" prefWidth="77.0" />
+      <Label fx:id="grupal" layoutX="70.0" layoutY="56.0" prefHeight="21.0" prefWidth="77.0" />
+      <Label fx:id="idl2" layoutX="20.0" layoutY="14.0" prefHeight="21.0" prefWidth="77.0" text="ID:" />
+      <Label layoutX="20.0" layoutY="35.0" prefHeight="21.0" prefWidth="77.0" text="Nume:" />
+      <Label layoutX="20.0" layoutY="56.0" prefHeight="21.0" prefWidth="50.0" text="Grupa:" />
+      <Label fx:id="idl1" layoutX="212.0" layoutY="74.0" prefHeight="21.0" prefWidth="50.0" />
+      <Button layoutX="26.0" layoutY="105.0" mnemonicParsing="false" onAction="#View" text="View" />
+      <Label fx:id="idl11" layoutX="187.0" layoutY="46.0" prefHeight="21.0" prefWidth="50.0" />
+      <TextField fx:id="idt" layoutX="214.0" layoutY="41.0" prefHeight="31.0" prefWidth="77.0" />
+      <Button layoutX="150.0" layoutY="41.0" mnemonicParsing="false" onAction="#ViewNota" text="View " />
+      <Label layoutX="215.0" layoutY="14.0" text="View Grade" />
+      <Label layoutX="161.0" layoutY="74.0" text="Grade:" />
+   </children>
+</AnchorPane>
